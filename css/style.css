@@ -21,6 +21,7 @@ li {
 }
 
 img {
+  display: block;
   max-width: 100%;
 }
 
@@ -97,14 +98,33 @@ img {
   background-color: #b07dfb;
 }
 
+/* content  */
+
 .content {
   grid-area: content;
 }
 
+/* anuncios */
+
 .anuncios {
   grid-area: anuncios;
+  background: #fafcfc;
+  display: grid;
+  align-content: flex-start;
+  border-radius: 5px;
+  padding: 30px;
+  gap: 30px;
 }
+
+/* footer */
 
 .footer {
   grid-area: footer;
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+  padding: 30px;
 }
